@@ -7,6 +7,8 @@
     "watch": "tsc -w",
     "prestart": "npm run build",
     "start": "func start",
+    "logs": "func azure functionapp logstream msi-func-poc",
+    "deploy": "func azure functionapp publish msi-func-poc",
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {},
