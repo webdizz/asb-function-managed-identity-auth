@@ -1,0 +1,13 @@
+{
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "topicName": "msi-poc-sbt",
+      "subscriptionName": "msi-poc-sbt-sub",
+      "connection": "MSIServiceBusConnection"
+    }
+  ],
+  "scriptFile": "../dist/ServiceBusTrigger/index.js"
+}
